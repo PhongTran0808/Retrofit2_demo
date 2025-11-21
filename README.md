@@ -26,21 +26,10 @@ RecyclerView & CardView,Hiển thị danh sách dữ liệu cuộn theo chiều 
 
 
 
-com.example.myapplication/
-├── MainActivity.java           # Activity chính, chịu trách nhiệm gọi API và thiết lập RecyclerView.
-├── Category.java               # Model (POJO) ánh xạ dữ liệu JSON (id, name, images, description).
-├── CategoryAdapter.java        # Adapter xử lý việc hiển thị từng item Category trong RecyclerView.
-├── APIService.java             # Interface định nghĩa các phương thức API (Endpoint GET/POST).
-├── RetrofitClient.java         # Khởi tạo Retrofit instance (Singleton) với Base URL và OkHttpClient.
-└── res/layout/
-    ├── activity_main.xml       # Layout chứa RecyclerView.
-    └── item_category.xml       # Layout cho từng item (chứa ImageView và TextView).
-
-
-
 
 =================== ẢNH MINH HỌA ===============
 
 
 <img width="402" height="816" alt="image" src="https://github.com/user-attachments/assets/bd401cef-d771-4b9b-a2f1-58f5145e6e2e" />
+
 
